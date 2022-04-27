@@ -29,10 +29,9 @@ time, mark, audio, video {
 }
 
 body {
-    margin: 0 auto;
     width: 100%;
     font-family: 'Roboto Mono', monospace;
-    line-height: 120%;
+    /* line-height: 120%; */
     text-align: center;
     font-size: 20px;
     font-weight: 300;
@@ -50,17 +49,16 @@ header {
 }
 
 .navButton div a {
-    margin: 0 auto;
-    padding: 10px;
-    display: inline-block;
+    padding: 5%;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 20px;
+    display: block;
 }
 
 .navButton div {
     border-radius: 20px;
     width: 15%;
+    word-wrap: break-word;
 }
 
 .navButton div:hover {
@@ -111,10 +109,10 @@ header {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 4rem; 
+    font-size: 3em; 
     padding-top: 10%;
     padding-bottom: 5%;
-    /* font-kerning: auto; */
+    display: block;
 }
 
 .strong {
@@ -131,7 +129,7 @@ h1 {
 .topContent {
     background-color: #DDB9A3;
     color: #ffffff;
-    padding: 10px;
+    padding: 1%;
     margin: 3%;
 }
 
@@ -150,6 +148,7 @@ h1 {
 }
 
 .bottomContent img {
+    margin-top: 5%;
     width: 30%;
 }
 
@@ -165,7 +164,8 @@ footer {
     overflow: hidden;
 }
 .footerImage img {
-    margin: -4rem 0 -23rem 0;
+    margin-top: -4rem;
+    margin-bottom: -23rem;
     background-color: red;
 }
 
