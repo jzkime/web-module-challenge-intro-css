@@ -1,32 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-/* html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-} */
-
 * {
     border: 0;
     padding: 0;
     margin: 0 auto;
     /* box-sizing: content-box; */
     font: inherit;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
 
 body {
@@ -57,22 +35,6 @@ header {
     margin-right: 5%;
 }
 
-/*     padding: 5%;
-    color: #ffffff;
-    border-radius: 20px;
-    text-decoration: none;
-    display: inline-block;
-    text-align: middle;
-    font-size: 1rem;
-    margin: 3%;
-    width: 5%; 
-    height: 1%;
-    vertical-align: bottom; */
-
-.navButton {
-    /* background-color: rgb(248, 123, 123); */
-}
-
 .navButton a:hover {
     background-color: #e9c5af;
 }
@@ -92,35 +54,42 @@ header {
 /* Header Section */
 
 .head {
-    display: flex;
-    justify-content: center;
-    margin: 5% auto;
+    margin: 3%;
 }
 
 .head img {
-    border-radius: 50%;
-    width: 23%;
-    height: 23%;
-    margin-left: 8%;
     margin-top: 2%;
+    display: inline-block;
+    border-radius: 50%;
+    width: 28%;
+    height: 28%;
+    margin-left: 3%;
 }
 
 .headerRight {
-    margin-right: 10%;
-    /* background-color: pink; */
+    display: inline-block;
+    width: 65%;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    vertical-align: text-bottom;
 }
 
 .headerRight p {
     font-weight: 400;
-    padding-top: 5%;;
+    padding-bottom: 2%;;
+    width: 100%;
+}
+
+.headerRight p:last-of-type {
+    margin-bottom: 8%;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 3em; 
-    padding-top: 10%;
     padding-bottom: 5%;
-    display: block;
+    /* display: inline-block; */
+    margin: 0 auto;
 }
 
 .strong {
