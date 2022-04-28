@@ -24,8 +24,9 @@ time, mark, audio, video {
     border: 0;
     padding: 0;
     margin: 0 auto;
-    box-sizing: border-box;
+    /* box-sizing: content-box; */
     font: inherit;
+    border: 1px solid gray;
 }
 
 body {
@@ -43,34 +44,41 @@ header {
     margin: 2%;
 }
 
-.navButton {
-    display: flex;
-    justify-content: space-around;
-}
-
-.navButton div a {
-    padding: 5%;
+.navButton a {
+    font-size: 15px;
+    font-weight: 400;
     color: #ffffff;
-    text-decoration: none;
-    display: block;
-}
-
-.navButton div {
+    display: inline-block;
+    width: 12vw;
     border-radius: 20px;
-    width: 15%;
-    word-wrap: break-word;
+    padding: 1%;
+    text-decoration: none;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-.navButton div:hover {
+/*     padding: 5%;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: middle;
+    font-size: 1rem;
+    margin: 3%;
+    width: 5%; 
+    height: 1%;
+    vertical-align: bottom; */
+
+.navButton {
+    /* background-color: rgb(248, 123, 123); */
+}
+
+.navButton a:hover {
     background-color: #e9c5af;
 }
 
 .plan {
     background-color: #FF764E;
-}
-
-.plan:hover {
-    color: #FF764E;
 }
 
 .learn {
