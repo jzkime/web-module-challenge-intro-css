@@ -2,7 +2,6 @@
     border: 0;
     padding: 0;
     margin: 0 auto;
-    /* box-sizing: content-box; */
     font: inherit;
     /* border: 1px solid gray; */
 }
@@ -10,7 +9,6 @@
 body {
     width: 100%;
     font-family: 'Roboto Mono', monospace;
-    /* line-height: 120%; */
     text-align: center;
     font-size: 20px;
     font-weight: 300;
@@ -88,7 +86,6 @@ h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 3em; 
     padding-bottom: 5%;
-    /* display: inline-block; */
     margin: 0 auto;
 }
 
@@ -143,6 +140,7 @@ footer {
 .footerImage img {
     margin-top: -4rem;
     margin-bottom: -23rem;
+    width: 100%;
     background-color: red;
 }
 
